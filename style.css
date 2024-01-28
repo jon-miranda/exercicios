@@ -1,0 +1,20 @@
+ /* Estilos para alinhar o parágrafo ao centro */
+ h1 {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+}
+
+header {
+    height: 50px;
+    background-color: #7B68EE;
+}
+
+body {
+    background-color: #DCDCDC;    
+}
+
+p {
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
