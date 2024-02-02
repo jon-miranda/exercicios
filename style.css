@@ -1,4 +1,12 @@
- /* Estilos para alinhar o parágrafo ao centro */
+*{
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    font-family: sans-serif;    
+}
+
+
  h1 {
     text-align: center;
     color: white;
@@ -6,12 +14,57 @@
 }
 
 header {
-    height: 50px;
-    background-color: #363636;
+    height: 55px;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
+.botoes-menu{
+    display: flex;             
+}
+
+.botao-principal{
+    font-size: 25px;
+    color: white;
+    font-family: Arial, Helvetica;
+    font-weight: bold;
+    background-color: transparent;
+    margin-top: 15px;
+    border: none;
+
+}
+.botao {   
+    
+    display: flex;
+    color: white;
+    background-color: transparent;
+    border: none;    
+    margin-left: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    
+       
+}   
+.container-pesquisa{
+    display: flex;
+    justify-content: flex-end; /* Alinha o conteúdo à direita */
+    margin-top: -38px;     
+ }
+ .search input{
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    background-color: rgb(32, 32, 32);
+    color: white;
+    font-weight: bold;
+    
+ }
+
+
 body {
-    background-color: white;    
+    background-color: rgb(37, 37, 37);       
+    width: 100%; 
+    color: white;
 }
 
 p {
