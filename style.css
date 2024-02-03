@@ -20,7 +20,8 @@ header {
 }
 
 .botoes-menu{
-    display: flex;             
+    display: flex; 
+    cursor: pointer;            
 }
 
 .botao-principal{
@@ -31,6 +32,7 @@ header {
     background-color: transparent;
     margin-top: 15px;
     border: none;
+    cursor: pointer; 
 
 }
 .botao {   
@@ -42,6 +44,7 @@ header {
     margin-left: 20px;
     margin-top: 20px;
     font-weight: bold;
+    cursor: pointer; 
     
        
 }   
@@ -50,15 +53,23 @@ header {
     justify-content: flex-end; /* Alinha o conteúdo à direita */
     margin-top: -38px;     
  }
- .search input{
+ .input{
     border-radius: 6px;
     height: 40px;
     border: none;
     background-color: rgb(32, 32, 32);
     color: white;
     font-weight: bold;
-    
- }
+    border-radius: 6px 0 0 6px;
+    }
+    .botao-pesquisar{
+        background-color: gray;
+        color: white;       
+        cursor: pointer;
+        border-radius: 0 6px 6px 0;
+        border: none;
+  
+    }
 
 
 body {
